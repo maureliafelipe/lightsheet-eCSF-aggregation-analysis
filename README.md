@@ -3,8 +3,6 @@
 This repository contains a reproducible demo of the image analysis workflow used for the light-sheet paper.  
 It shows how 3D subset stacks from multiple embryos were processed from raw images to probability maps, binary segmentations, and quantitative compartment-level measurements.
 
-
-
 ## Associated publication
 
 This code was used for the analysis presented in the following publication:
@@ -15,6 +13,18 @@ This code was used for the analysis presented in the following publication:
 
 This repository contains the code used to study a molecular complex in the embryonic chick cerebrospinal fluid (eCSF) at developmental stage HH25, following **CellMask-488 injection** and **phalloidin-633 fluorolabelling**.
 
+## Data availability
+
+The full imaging data associated with this repository are archived in Zenodo:
+[Zenodo DOI 10.5281/zenodo.21420200](https://doi.org/10.5281/zenodo.21420200)
+
+This Zenodo record contains:
+
+- the full `.czi` files for each embryo
+- subsets of selected `z`-slices for some embryos
+- the source files corresponding to the examples included in `data_sample/` and used in the demo workflow
+
+The `data_sample/` directory in this repository contains a reduced set of example files for demonstration and testing. The complete per-embryo image files and selected `z`-subsets are available in the Zenodo archive linked above.
 
 ## Overview
 
