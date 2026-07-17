@@ -3,6 +3,19 @@
 This repository contains a reproducible demo of the image analysis workflow used for the light-sheet paper.  
 It shows how 3D subset stacks from multiple embryos were processed from raw images to probability maps, binary segmentations, and quantitative compartment-level measurements.
 
+
+
+## Associated publication
+
+This code was used for the analysis presented in the following publication:
+
+**Structural and Molecular Characterization of the Chick Embryonic Cerebrospinal Fluid reveals a luminal extracellular matrix network containing SCO-spondin**
+
+**Felipe Maurelia**<sup>1,4</sup>\*, **Jaime Aguayo**<sup>1</sup>\*, **Francesca Thiele**<sup>1</sup>, **Maryori González**<sup>1</sup>, **Benjamín Molina-Chavez**<sup>1</sup>, **Vania Sepúlveda**<sup>1</sup>, **Antonia Recabal**<sup>1</sup>, **Marcela Torrejón**<sup>2</sup>, **Carlos Farkas**<sup>3</sup>, **Charlene Guillot**<sup>4</sup>, **Ángel Gato**<sup>5</sup>, **Teresa Caprile**<sup>1</sup>
+
+This repository contains the code used to study a molecular complex in the embryonic chick cerebrospinal fluid (eCSF) at developmental stage HH25, following **CellMask-488 injection** and **phalloidin-633 fluorolabelling**.
+
+
 ## Overview
 
 The demo illustrates the following analysis steps:
